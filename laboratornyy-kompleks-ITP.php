@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="ВолГУ, волгу, вуз, наука, научное общество, учеба, студент, ВУЗ, университет, высшее учебное заведение" />
+<meta name="description" content="Волжский филиал Волгоградского государственного университета - официальный сайт ВФ ВолГУ" />
+<script data-skip-moving="true">(function(w, d) {var v = w.frameCacheVars = {"CACHE_MODE":"HTMLCACHE","storageBlocks":[],"dynamicBlocks":{"LkGdQn":"72b335ba98ee"},"AUTO_UPDATE":true,"AUTO_UPDATE_TTL":120,"version":2};var inv = false;if (v.AUTO_UPDATE === false){if (v.AUTO_UPDATE_TTL && v.AUTO_UPDATE_TTL > 0){var lm = Date.parse(d.lastModified);if (!isNaN(lm)){var td = new Date().getTime();if ((lm + v.AUTO_UPDATE_TTL * 1000) >= td){w.frameRequestStart = false;w.preventAutoUpdate = true;return;}inv = true;}}else{w.frameRequestStart = false;w.preventAutoUpdate = true;return;}}var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);if (!r) { return; }w.frameRequestStart = true;var m = v.CACHE_MODE; var l = w.location; var x = new Date().getTime();var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");var u = l.protocol + "//" + l.host + l.pathname + q;r.open("GET", u, true);r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");r.setRequestHeader("X-Bitrix-Composite", "get_dynamic");r.setRequestHeader("BX-CACHE-MODE", m);r.setRequestHeader("BX-CACHE-BLOCKS", v.dynamicBlocks ? JSON.stringify(v.dynamicBlocks) : "");if (inv){r.setRequestHeader("BX-INVALIDATE-CACHE", "Y");}try { r.setRequestHeader("BX-REF", d.referrer || "");} catch(e) {}if (m === "APPCACHE"){r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");}r.onreadystatechange = function() {if (r.readyState != 4) { return; }var a = r.getResponseHeader("BX-RAND");var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)){var f = {error:true, reason:a!=x?"bad_rand":"bad_status", url:u, xhr:r, status:r.status};if (w.BX && w.BX.ready && b){BX.ready(function() {setTimeout(function(){BX.onCustomEvent("onFrameDataRequestFail", [f]);}, 0);});}w.frameRequestFail = f;return;}if (b){b.onFrameDataReceived(r.responseText);if (!w.frameUpdateInvoked){b.update(false);}w.frameUpdateInvoked = true;}else{w.frameDataString = r.responseText;}};r.send();var p = w.performance;if (p && p.addEventListener && p.getEntries && p.setResourceTimingBufferSize){var e = 'resourcetimingbufferfull';var h = function() {if (w.BX && w.BX.frameCache && w.BX.frameCache.frameDataInserted){p.removeEventListener(e, h);}else {p.setResourceTimingBufferSize(p.getEntries().length + 50);}};p.addEventListener(e, h);}})(window, document);</script>
+
+
+<link href="/bitrix/cache/css/s1/empty/page_8ffae623c5a7aa8e226fa43604657ee4/page_8ffae623c5a7aa8e226fa43604657ee4_v1.css?17733121221311" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/s1/empty/template_bda3c95d564121e6eb252cbea125cb4f/template_bda3c95d564121e6eb252cbea125cb4f_v1.css?1773838630272649" type="text/css" rel="stylesheet" data-template-style="true"/>
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1773311975245644"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"ui.dexie","namespace":"BX.DexieExport","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"fc","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"vgi_volsu","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/"});</script>
+
+
+<script src="/bitrix/js/ui/dexie/dist/dexie.bundle.min.js?1750745012102530"></script>
+<script src="/bitrix/js/main/core/core_frame_cache.min.js?177331197510246"></script>
+<script>BX.setJSList(["\/bitrix\/components\/bitrix\/search.suggest.input\/templates\/.default\/script.js","\/bitrix\/components\/nbrains\/slider\/front\/js\/jquery-3.1.1.min.js","\/bitrix\/components\/nbrains\/slider\/front\/js\/masterslider.js"]);</script>
+<script>BX.setCSSList(["\/bitrix\/components\/bitrix\/breadcrumb\/templates\/.default\/style.css","\/bitrix\/templates\/empty\/components\/bitrix\/menu\/menuvgi\/style.css","\/bitrix\/components\/bitrix\/search.suggest.input\/templates\/.default\/style.css","\/bitrix\/templates\/empty\/components\/nbrains\/slider\/slider\/masterslider.css","\/bitrix\/templates\/empty\/styles.css","\/bitrix\/templates\/empty\/template_styles.css","\/bitrix\/components\/vision\/vision.special\/templates\/.default\/style\/css\/style.css","\/bitrix\/components\/vision\/vision.special\/templates\/.default\/style\/css\/bvi-font.css","\/bitrix\/components\/vision\/vision.special\/templates\/.default\/style\/css\/bvi.css","\/bitrix\/components\/vision\/vision.special\/templates\/.default\/style\/css\/bvi.min.css","\/bitrix\/components\/vision\/vision.special\/templates\/.default\/style\/css\/bvi-font.min.css"]);</script>
+
+
+<script  src="/bitrix/cache/js/s1/empty/template_6605b4d200c9a6c6934917e628afd89c/template_6605b4d200c9a6c6934917e628afd89c_v1.js?1773312058368510"></script>
+
+		<title>Волжский филиал Волгоградского государственного университета</title>
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> 	
+<link rel='stylesheet' type='text/css' media='all' href='//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css' />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Волжский филиал Волгоградского государственного университета, ВГИ" />
+<meta name="description" content="Волжский филиал Волгоградского государственного университета" />
+<link href="/bitrix/templates/vgi_main_index/components/bitrix/menu/top_center_menu/style.css?1558350690220" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/components/bitrix/search.suggest.input/templates/.default/style.css?1558350705501" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/js/main/core/css/core.min.css?15583506932854" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/vgi_main_index/components/bitrix/menu/vgi_horizont_menu/style.css?15583506904453" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/vgi_main_index/components/bitrix/menu/target_menu/style.css?1558350690677" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/vgi_main_index/styles.css?157967062619" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/vgi_main_index/template_styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+<!--Owl.carousel-->
+<link href="/bitrix/templates/empty/css/owl.carousel.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/bitrix/templates/empty/css/owl.theme.default.min.css">
+<script type="text/javascript" src="/bitrix/templates/empty/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/bitrix/templates/empty/js/owl.carousel.min.js"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(96925066, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/96925066" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <!-- MyTracker counter -->
+    <script>
+        (function() {
+            var loaded = false;
+            var loadTMR = function () {
+                if (loaded) return;
+                loaded = true;
+
+                window._tmr = window._tmr || [];
+                window._tmr.push({id: "3603557", type: "pageView", start: (new Date()).getTime()});
+
+                (function (d, w, id) {
+                    if (d.getElementById(id)) return;
+                    var ts = d.createElement("script");
+                    ts.type = "text/javascript";
+                    ts.async = true;
+                    ts.id = id;
+                    ts.src = "https://top-fwz1.mail.ru/js/code.js";
+                    var f = function () {
+                        var s = d.getElementsByTagName("script")[0];
+                        s.parentNode.insertBefore(ts, s);
+                    };
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else {
+                        f();
+                    }
+                })(document, window, "tmr-code");
+            };
+
+            window.addEventListener("scroll", loadTMR, { once: true });
+            window.addEventListener("mousemove", loadTMR, { once: true });
+            window.addEventListener("touchstart", loadTMR, { once: true });
+        })();
+    </script>
+	</head>
+<body>
+	<div id="panel">
+	 </div>
+<div id="personal_box">
+	<div style="float: right; margin: 5px 5px 0 5px; text-align: center;">
+ <a href="/auth/">Войти</a>
+	</div>
+	<div style="float: right; margin: 5px 5px 0 5px; text-align: center;">
+ <a href="/map" alt="Карта сайта"><img src="/images/map.png"></a>
+	</div>
+	<div style="float: right; margin: 5px 5px 0 5px; text-align: center;">
+ <a href="https://volsu.ru/other/zh/"><img src="/images/china.png"></a>
+	</div>
+	<div style="float: right; margin: 5px 5px 0 5px; text-align: center;">
+ <a href="https://volsu.ru/other/eng/"><img src="/images/english.png"></a>
+	</div>
+</div>
+ 
+<!-- Добавляем отступ для основного контента -->
+<div id="main_box" style="margin-top: 80px;">
+	<div id="container">
+		<div id="header">
+			<table width="100%" cellspacing="0" cellpadding="0">
+			<tbody>
+			<tr>
+				<td width="380px" valign="top">
+ <a href="/"><img width="371" alt="Волжский филиал Волгоградского государственного университета" src="/bitrix/images/vgi/vgi-banner2.png" height="114" title="Волжский филиал Волгоградского государственного университета" style="margin: 10px 0 0 0" class="rte"></a>
+				</td>
+				<td valign="top">
+					<div id="big_nav">
+						<ul class="center-menu">
+							<li><a href=""></a><br>
+ </li>
+							<li><a href="https://lkvgi.volsu.ru/">Личный кабинет Абитуриента</a><br>
+ </li>
+							<li><a href=""></a><br>
+ </li>
+							<li><a href="/sveden">Сведения об образовательной организации</a><br>
+ </li>
+							<li><a href="/feedback/applicationform.php">Форма обращения граждан</a><br>
+ </li>
+							<li><a href="/contact.php">Контакты</a><br>
+ </li>
+						</ul>
+					</div>
+				</td>
+				<td width="300px">
+					<div style="width: 258px;">
+						 <div class="search-form">
+<form action="/search/index.php">
+	<table border="0" cellspacing="0" cellpadding="2" align="center">
+		<tr>
+			<td align="center"><script>
+	BX.ready(function(){
+		var input = BX("qplSKIW");
+		if (input)
+			new JsSuggest(input, 'pe:10,md5:,site:s1');
+	});
+</script>
+<IFRAME
+	style="width:0px; height:0px; border: 0px;"
+	src="javascript:''"
+	name="qplSKIW_div_frame"
+	id="qplSKIW_div_frame"
+></IFRAME><input
+			size="15"
+		name="q"
+	id="qplSKIW"
+	value=""
+	class="search-suggest"
+	type="text"
+	autocomplete="off"
+/>
+</td>
+		</tr>
+		<tr>
+			<td align="right"><input name="s" type="submit" value="Поиск" /></td>
+		</tr>
+	</table>
+</form>
+</div>
+					</div>
+					<div>
+						 
+<p>
+<a href="#" class="bvi-open"><img src="/bitrix/images/eye_open.png"></a>
+        <script src="/bitrix/components/vision/vision.special/templates/.default/style/js/responsivevoice.min.js"></script> 
+	<script src="/bitrix/components/vision/vision.special/templates/.default/style/js/js.cookie.js"></script> 
+	<script src="/bitrix/components/vision/vision.special/templates/.default/style/js/bvi-init.js"></script> 
+	<script src="/bitrix/components/vision/vision.special/templates/.default/style/js/bvi.min.js"></script> 
+
+
+<!--<div class="container-fluid">
+
+        <div class="navbar navbar-default" role="navigation">
+
+            <div class="row ">
+
+                <div class="col-md-2 col-centered">
+
+                    <p>Размер шрифта</p>
+
+                    <br/>
+
+                    <div class="btn-group">
+
+                        <button type="button" id="a2" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-minus"></span>
+   
+                     </button>
+             
+           <button type="button" id="a1" class="btn btn-default btn-sm">
+           <span class="glyphicon glyphicon-plus"></span>
+               
+         </button>
+                 
+   </div>
+               
+ </div>
+             
+   <div class="col-md-2 col-centered">
+   
+                 <p>Шрифт</p>
+             
+       <br/>
+                  
+    <div class="btn-group">
+         
+               <button type="button" class="btn btn-default btn-sm nop"  id="font1">
+                        <span style="font-family:'Times New Roman';font-size:14px;">с засечками</span>
+  
+                        </button>
+                        
+                        <button type="button" class="btn btn-default btn-sm nop" id="font2">
+                        <span style="font-family:'Arial';font-size:14px;">без засечек</span>
+
+                        </button>
+                  
+   </div>
+                    
+                    
+                    
+                    
+             
+   </div>
+             
+   <div class="col-md-3 col-centered">
+     
+               <p>
+                  
+      <span>Цвета сайта</span>
+   
+                 </p>
+              
+                 <br/>
+              
+      <div class="btn-group">
+
+                        <button type="button" class="btn btn-default btn-sm" id="c1">
+                        <span class="glyphicon glyphicon-font"></span>
+            
+            </button>
+  
+                      <button type="button" class="btn btn-default btn-sm" id="c2">
+                      <span class="glyphicon glyphicon-font"></span>
+              
+          </button>
+                   
+     <button type="button" class="btn btn-default btn-sm" id="c3">
+     <span class="glyphicon glyphicon-font"></span>
+                
+        </button>
+                   
+     <button type="button" class="btn btn-default btn-sm" id="c4">
+<span class="glyphicon glyphicon-font"></span>
+               
+         </button>
+                      
+  <button type="button" class="btn btn-default btn-sm" id="c5">
+<span class="glyphicon glyphicon-font"></span>
+                 
+       </button>
+                
+    </div>
+           
+     </div>
+           
+     <div class="col-md-2 col-centered">
+
+                    <p>Изображения</p>
+  
+                  <br/>
+    
+                <div class="btn-group" data-toggle="buttons">
+
+                        <label class="btn btn-default  btn-sm redis">
+  
+                          <input type="radio" id="q156" name="imgvis" value="1" />
+                          <span class="glyphicon glyphicon-eye-open"></span>
+
+    
+                         </label>
+
+                        <label class="btn btn-default  btn-sm redis">
+
+                        <input type="radio" id="q157" name="imgvis" value="2" />
+                        <span class="glyphicon glyphicon-eye-close"></span>
+
+                        </label>
+                    
+                        </div>
+ 
+                        </div>
+          
+                        <div class="col-md-1 col-centered">
+ 
+                   <p><span class="glyphicon glyphicon-resize-horizontal">Инт.</span>
+ 
+                   </p>
+ 
+                   <br/>
+
+                   <div class="btn-group">
+
+                        <button type="button" id="i2" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-minus"></span>
+
+                        </button>
+
+                        <button type="button" id="i1" class="btn btn-default btn-sm">
+                        <span class="glyphicon glyphicon-plus"></span>
+ 
+                       </button>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-1 col-centered">
+
+                <p><span class="glyphicon glyphicon-resize-vertical">Инт.</span>
+
+                </p>
+                    <br/>
+                    
+                <div class="btn-group">
+ 
+                <div class="btn-group" data-toggle="buttons">
+
+                            <label class="btn btn-default  btn-sm ol1">
+
+                                <input type="radio" id="yr1" name="inter" value="1" /><span class="glyphicon glyphicon-resize-small"></span>
+
+
+                            </label>
+ 
+                    <label class="btn btn-default btn-sm ol1">
+
+                    <input type="radio" id="yr2" name="inter" value="2" />
+      <span class="glyphicon glyphicon-resize-full"></span>
+ 
+      </label>
+                        
+</div>
+                    
+</div>
+                
+</div>
+                
+<div class="col-md-1 col-centered">
+                    
+<p></p>
+                    
+<br/>
+                    
+<div class="btn-group">
+                        
+<button class="btn btn-default btn-sm" id="reset"> 
+<i class="glyphicon glyphicon-refresh"></i> 
+Сброс</button>
+                    
+</div>
+                
+</div>
+            
+</div>
+        
+</div>
+    
+</div>-->
+ <a href="/sveden/objects/" style="color:#fff; font-size: 18px; text-decoration:none"><img src="/bitrix/images/male-cartoon-on-wheel-chair.png" height="32"></a>
+					</div>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+</div><div id="main_box">
+<div id="top-menu-wrapper">
+	<ul id="horizontal-multilevel-menu">
+		<li><a href="/" class="root-item-selected">Главная</a>
+		<ul>
+			<li><a href="/contact.php">Телефонный справочник</a></li>
+		</ul>
+ </li>
+		<li><a href="/sveden/" class="root-item">Сведения об образовательной организации</a>
+		<ul>
+			<li><a href="/sveden/common">Основные сведения</a></li>
+			<li><a href="/sveden/struct">Структура и органы управления образовательной организацией</a></li>
+			<li><a href="/sveden/document">Документы</a></li>
+			<li><a href="/sveden/education">Образование</a></li>
+			<li><a href="/sveden/managers/">Руководство</a></li>
+			<li><a href="/sveden/employees">Педагогический состав</a></li>
+			<li><a href="/sveden/objects">Материально-техническое обеспечение. Доступная среда</a></li>
+			<li><a href="/sveden/paid_edu">Платные образовательные услуги</a></li>
+			<li><a href="/sveden/budget">Финансово-хозяйственная деятельность</a></li>
+			<li><a href="/sveden/vacant">Вакантные места для приема (перевода)</a></li>
+			<li><a href="/sveden/grants">Стипендии и меры поддержки обучающихся</a></li>
+			<li><a href="/sveden/inter">Международное сотрудничество</a></li>
+			<li><a href="/sveden/catering/">Организация питания в образовательной организации и охрана здоровья</a></li>
+			<li><a href="/sveden/eduStandarts">Образовательные стандарты и требования</a></li>
+			<li><a href="/sveden/anti_terror/">Антитеррор</a></li>
+			<li><a href="/sveden/income/index.php">Противодействие коррупции</a></li>
+			<li><a href="https://bus.gov.ru/agency/222132/register-info">Регистрационные данные организации</a></li>
+		</ul>
+ </li>
+		<li><a href="/structure/" class="root-item">Структура</a>
+		<ul>
+			<li><a href="/structure/office/">Управление филиалом</a>
+			<ul>
+				<li><a href="/structure/office/council/">Ученый совет</a></li>
+				<li><a href="https://vgi2.volsu.ru/sveden/managers/">Администрация</a></li>
+			</ul>
+ </li>
+			<li><a href="/structure/department/">Кафедры</a>
+			<ul>
+				<li><a href="/structure/department/pmipr/">Кафедра инженерно-математических и естественно-научных дисциплин </a></li>
+				<li><a href="/structure/department/kafedra-yurisprudentsii/">Кафедра юриспруденции и психологии</a></li>
+			</ul>
+ </li>
+			<li><a href="/structure/spo/">Университетский колледж</a>
+			<ul>
+				<li><a href="/structure/spo/Information systems">Информационные системы и программирование</a></li>
+				<li><a href="/structure/spo/economics_and_accounting/">Экономика и бухгалтерский учет</a></li>
+				<li><a href="/structure/spo/social_security/">Юриспруденция</a></li>
+				<li><a href="/structure/spo/land_management/index.php">Землеустройство</a></li>
+			</ul>
+ </li>
+			<li><a href="/structure/subdivisions/">Подразделения</a>
+			<ul>
+				<li><a href="http://bibl.vgi.volsu.ru/">Библиотека</a></li>
+				<li><a href="/structure/subdivisions/accounts_department/">Бухгалтерия</a></li>
+				<li><a href=" /structure/subdivisions/laboratornyy-kompleks-ITP.php">Лабораторный комплекс ИТ и программирования</a></li>
+				<li><a href="/structure/subdivisions/meditsinskiy-kabinet.php">Медпункт</a></li>
+				<li><a href="/structure/subdivisions/general_department/">Общий отдел</a></li>
+				<li><a href="/structure/subdivisions/it/">Отдел информационных технологий</a></li>
+				<li><a href="/structure/subdivisions/personnel_department_and_legal_support/">Отдел кадров и юридического сопровождения</a></li>
+				<li><a href="http://www.volsu.ru/socorg/laborunion/">Профсоюзный комитет</a></li>
+				<li><a href="/structure/subdivisions/educational-methodical_department/">Учебно-методический отдел</a></li>
+				<li><a href="/structure/subdivisions/educational-science_laboratory/">Учебно-научная лаборатория исследования региональных систем</a></li>
+				<li><a href="/structure/subdivisions/general_service_department/">Хозяйственный отдел</a></li>
+				<li><a href="/addedu/">Центр непрерывного образования</a></li>
+				<li><a href="/structure/department/kafedra-yurisprudentsii/uclinic/">Юридическая клиника - лаборатория кафедры юриспруденции и психологии</a></li>
+			</ul>
+ </li>
+		</ul>
+ </li>
+		<li><a href="/eios/" class="root-item">ЭИОС ВФ ВолГУ</a>
+		<ul>
+			<li><a href="/eios/">Электронная информационно-образовательная среда вуза</a></li>
+			<li><a href="/eios/onlain_exam">Интернет экзамен</a></li>
+		</ul>
+ </li>
+		<li><a href="/scientific/" class="root-item">Научная деятельность</a>
+		<ul>
+			<li><a href="https://volsu.ru/struct/administrative/managscience/">Наука в ВолГУ</a></li>
+			<li><a href="/scientific/grantovye-issledovaniya-vf-volgu/index.php">Грантовые исследования ВФ ВолГУ</a></li>
+			<li><a href="/scientific/financing/">Финансируемые проекты</a></li>
+			<li><a href="/scientific/intellectual_property/">Объекты интеллектуальной собственности</a></li>
+			<li><a href="/scientific/results/">Результаты НИР</a></li>
+			<li><a href="https://volsu.ru/struct/administrative/managscience/nauka/noc.php">Научно-образовательные центры ВолГУ</a></li>
+			<li><a href="/student/associations/student_scientific_community/">Студенческое научное общество</a></li>
+		</ul>
+ </li>
+		<li><a href="/pedagogical/" class="root-item">Воспитательная работа</a>
+		<ul>
+			<li><a href="/pedagogical/health/">ВФ ВолГУ - территория здоровья</a></li>
+			<li><a href="/pedagogical/plan/">Календарный план мероприятий</a></li>
+			<li><a href="/student/associations/">Студенческие объединения</a></li>
+		</ul>
+ </li>
+	</ul>
+</div>
+<div class="menu-clear-left">
+</div>	<div id="iview">
+		
+<div class="nbrains-slider-block" >
+	<div id="P_MS1" class="master-slider-parent ms-parent-id-62">
+		<!-- MasterSlider Main -->
+		<div id="MS1" class="master-slider ms-skin-light-3" >
+						<div  class="ms-slide" data-delay="10"  data-fill-mode="fill">
+								<div class="ms-slider-text-box" style="right: px;top:px"><h3>ВФ ВолГУ&nbsp; - хорошее начало!</h3>
+ <b>Приемная комиссия</b><br>
+<b>
+Тел.:&nbsp; (8443) 51-53-01</b><br>
+<b>
+E-mail:&nbsp;</b><a href="mailto:priem@vgi.volsu.ru"><b>priem@vgi.volsu.ru</b></a><br>
+<b>
+Приемная комиссия </b><a href="https://vk.com/id214166222"><b>Вконтакте</b></a><br>
+ <br></div>
+				
+				<img src="/bitrix/components/nbrains/slider/front/css/blank.gif" alt="" title="" data-src="/upload/iblock/636/6rrml7t2w8b7nxo1i1hh4pz9btr0co5o.jpg" />
+
+			</div>
+						<div  class="ms-slide" data-delay="10"  data-fill-mode="fill">
+								<div class="ms-slider-text-box" style="right: px;top:px"><b>
+<h3>Центр непрерывного образования</h3>
+ </b> <b>С нами учиться интересно и легко!</b><br>
+ <b> </b><b> </b><b>
+т. (8443) 56-26-43</b><br></div>
+				
+				<img src="/bitrix/components/nbrains/slider/front/css/blank.gif" alt="" title="" data-src="/upload/iblock/6f4/exf4drp10ni4s8u5bhi954k49npva3bs.jpg" />
+
+			</div>
+						<div  class="ms-slide" data-delay="10"  data-fill-mode="fill">
+				
+				<img src="/bitrix/components/nbrains/slider/front/css/blank.gif" alt="" title="" data-src="/upload/iblock/95d/mzu2lr0dce8bzn3vu6k97emma8c88rli.jpg" />
+
+			</div>
+					</div>
+		<!-- END MasterSlider Main -->
+	</div>
+</div>
+<script>
+	"use strict";
+	var masterslider_1 = new MasterSlider();
+	// slider controls
+	masterslider_1.control('arrows'     ,{ autohide:false, overVideo:true  });
+	masterslider_1.control('bullets'    ,{ autohide:false, overVideo:true, dir:'h', align:"bottom", space:5 , margin:10  });
+	masterslider_1.control('timebar'    ,{ autohide:false, overVideo:true, align:'bottom', color:'#8FBB3F', width:10 });
+
+	// slider setup
+	masterslider_1.setup("MS1", {
+		width           : 980,
+		height          : 300,
+		minHeight       : 0,
+		space           : 0,
+		start           : 1,
+		grabCursor      : true,
+		swipe           : true,
+		mouse           : true,
+		keyboard        : false,
+		layout          : "boxed",
+		wheel           : false,
+		autoplay        : true,
+		instantStartLayers:false,
+		loop            : true,
+		shuffle         : false,
+		preload         : 0,
+		heightLimit     : true,
+		autoHeight      : false,
+		smoothHeight    : true,
+		endPause        : false,
+		overPause       : true,
+		fillMode        : "fill",
+		centerControls  : true,
+		startOnAppear   : false,
+		layersMode      : "center",
+		autofillTarget  : "",
+		hideLayers      : false,
+		fullscreenMargin: 0,
+		speed           : 50,
+		dir             : "h",
+		parallaxMode    : 'swipe',
+		view            : "basic"
+	});
+
+
+	window.masterslider_instances = window.masterslider_instances || [];
+	window.masterslider_instances.push( masterslider_1 );
+
+
+</script>	</div>
+	<div id="main_box">
+	<div class="target_menu_wrapper">
+	<ul class="target-menu">
+		<li><a href="/abitur">Абитуриенту</a></li>
+		<li><a href="/student">Студенту</a></li>
+		<li><a href="/employee/">Сотруднику</a></li>
+		<li><a href="/alumni/">Выпускнику</a></li>
+		<li><a href="/partner/">Партнеру</a></li>
+		<li><a href="/addedu/">Дополнительное образование</a></li>
+		<li><a href="/feedback/">Оценка качества<br>
+		 образования</a></li>
+	</ul>
+</div>	</div></div>
+	
+						
+<div id="main_box">
+	<div id="breadcrumb">
+		 <link href="/bitrix/css/main/font-awesome.css?169812851828777" type="text/css" rel="stylesheet" />
+<div class="bx-breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_0" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				
+				<a href="/" title="Главная" itemprop="item">
+					<span itemprop="name">Главная</span>
+				</a>
+				<meta itemprop="position" content="1" />
+			</div>
+			<div class="bx-breadcrumb-item" id="bx_breadcrumb_1" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+				<i class="fa fa-angle-right"></i>
+				<a href="/structure/" title="Структура" itemprop="item">
+					<span itemprop="name">Структура</span>
+				</a>
+				<meta itemprop="position" content="2" />
+			</div>
+			<div class="bx-breadcrumb-item">
+				<i class="fa fa-angle-right"></i>
+				<span>Подразделения</span>
+			</div><div style="clear:both"></div></div>	</div>
+	<div id="content-wrapper">
+		<div id="section-menu">
+ <br>
+			 <div id="bxdynamic_LkGdQn_start" style="display:none"></div>
+<ul class="left-menu">
+
+			<li><a href="http://bibl.vgi.volsu.ru/">Библиотека</a></li>
+		
+			<li><a href="/structure/subdivisions/accounts_department/">Бухгалтерия</a></li>
+		
+			<li><a href="/structure/subdivisions/laboratornyy-kompleks-ITP.php" class="selected">Лабораторный комплекс информационных технологий и программирования</a></li>
+		
+			<li><a href="/structure/subdivisions/laboratornyy-kompleks-geodezii.php">Лабораторный комплекс геодезии, картографии, фотограмметрии и топографической графики</a></li>
+		
+			<li><a href="/structure/subdivisions/meditsinskiy-kabinet.php">Медпункт</a></li>
+		
+			<li><a href="/structure/subdivisions/general_department/">Общий отдел</a></li>
+		
+			<li><a href="/structure/subdivisions/it/">Отдел информационных технологий</a></li>
+		
+			<li><a href="/structure/subdivisions/personnel_department_and_legal_support/">Отдел кадров и юридического сопровождения</a></li>
+		
+			<li><a href="https://volsu.ru/socorg/laborunion/">Профсоюзный комитет</a></li>
+		
+			<li><a href="/structure/subdivisions/educational-methodical_department/">Учебно-методический отдел</a></li>
+		
+			<li><a href="/structure/subdivisions/educational-science_laboratory">Учебно-научная лаборатория исследования региональных систем</a></li>
+		
+			<li><a href="/structure/subdivisions/general_service_department/">Хозяйственный отдел</a></li>
+		
+			<li><a href="/addedu/continuing_education">Центр непрерывного образования</a></li>
+		
+			<li><a href="/structure/department/kafedra-yurisprudentsii/uclinic/index.php">Юридическая клиника - лаборатория кафедры юриспруденции и психологии</a></li>
+		
+
+</ul>
+<div id="bxdynamic_LkGdQn_end" style="display:none"></div>		</div>
+ <a itemprop="copy" href="https://vgi2.volsu.ru/index.php?special=1" style="display: none;">Ссылка на версию официального сайта для слабовидящих</a>
+		<div id="content" style="font-family: Georgia, serif; font-size: 12pt; text-align: justify;">
+			<table border="1" cellspacing="0" cellpadding="0" align="center" style="border-collapse: collapse; background:#d6d6d6; width: 100%;">
+			<tbody>
+			<tr>
+				<td style="text-align: center; width: 150px;">
+ <img width="168" alt="imageswrq.png" src="/upload/medialibrary/496/cavphjunq0i12vu2tje2dps6w7xbcbx0/imageswrq.png" height="100" title="imageswrq.png" align="middle">
+				</td>
+				<td style="text-align: center; background: #d6d6d6;">
+ <span style="font-size: 20pt; color: #000000;"><b>Лабораторный комплекс информационных технологий и программирования</b></span>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+			<p>
+ <a href="https://vgi2.volsu.ru/upload/medialibrary/121/526w9ujtb6rp7ecqwoym15ldtcvjgeqi/Положение о лабораторном комплексе информационных технологий и программирования_.pdf" title="Положение о лаборатории.pdf" target="_blank">Положение о лаборатории</a>
+			</p>
+			<table cellpadding="1" cellspacing="1" style="border-collapse: collapse;" width="100%" align="center">
+			<tbody>
+			<tr>
+				<td style="text-align: center;" valign="center">
+ <img width="250" alt="на сайт.jpg" src="/upload/medialibrary/da8/t9lchseax296w9xlgbdz93vjxi0k4a9u/на%20сайт.jpg" height="368">
+				</td>
+				<td style="text-align: justify; padding: 0px 10px;">
+ <span style="font-size: 16pt; color: #003370;"><b>Заведующий лабораторным комплексом</b></span>
+					<p style="text-align: justify;">
+ <span style="color: #0054a5; font-size: 14pt;"><b>Логинов Олег Александрович</b> </span>
+					</p>
+					<p>
+ <span style="color: #0054a5;"><b>График работы:</b>
+						понедельник-пятница: 8:30 – 17:00 <br>
+						 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;обеденный перерыв: 12:30 – 13:00</span>
+					</p>
+					<p style="color: #0054a5; text-align: justify;">
+ <b>Каб.:</b> 3-10<br>
+ <b>Телефон:</b> (8443) 51-52-87<br>
+ <b>Е-mail:</b> <a href="mailto:ob.otdel@vgi.volsu.ru">asu@vgi.volsu.ru</a><br>
+ <b>Адрес:</b> 404133, Волгоградская обл., г. Волжский, ул. 40 лет Победы,11.
+					</p>
+				</td>
+			</tr>
+			</tbody>
+			</table>
+			<div style="text-align: start;">
+				<p style="text-align: justify;">
+ <span style="color: #0054a5;"><b>Задачи лабораторного комплекса:</b></span>
+				</p>
+				<ul>
+					<li>Планирование, организация и проведение лабораторных и практических занятий;</li>
+					<li>Создание условий для формирования и развития у обучающихся профессиональных компетенций;</li>
+					<li>Приобщение обучающихся к исследовательской и научно-практической деятельности;</li>
+					<li>Создание условий и участие в подготовке обучающихся к участию в научных конференциях, конкурсах и олимпиадах профессионального мастерства;</li>
+					<li>Проведение работ по обновлению, сохранению, укреплению и поддержании в работоспособном состоянии материально-технической базы лабораторного комплекса;</li>
+					<li>Внедрение и сопровождение специального программного обеспечения и новых информационных технологий для нужд ВФ ВолГУ.</li>
+				</ul>
+				<p style="text-align: justify;">
+ <span style="color: #0054a5;"><b>Функции лабораторного комплекса:</b></span>
+				</p>
+				<ul>
+					<li>Обеспечивает поддержание функционирования компьютерных классов (3-03, 3-12), технических средств обучения и сохранности материально-технической базы лабораторий;</li>
+					<li>Обеспечивает проведение лабораторных, практических занятий, учебной практики в учебных группах специальностей 09.02.07 "Информационные системы и программирование" и 01.03.02 "Прикладная математика и информатика";</li>
+					<li>Обеспечивает работы и техническую поддержку по созданию учебно-методического обеспечения учебного процесса с использованием материально-технической базы лабораторий;</li>
+					<li>Осуществление контроля за соблюдением правил техники безопасности, охраны труда, противопожарной безопасности при проведении лабораторных работ и практических занятий;</li>
+					<li>Проведение анализа деятельности лабораторного комплекса при подготовке отчетов и проведении работ по улучшению материально-технической базы лабораторий;</li>
+					<li>Техническое и информационное содействие реализации предпринимательских проектов обучающихся.</li>
+				</ul>
+				<p style="text-align: left;">
+ <span style="color: #0054a5;"><b>Сотрудники отдела:</b></span>
+				</p>
+				<p>
+ <span style="color: #003370;"><b>Лаборант</b></span><br>
+ <span style="color: #0054a5;"><b>Картушин А.А.</b></span>
+				</p>
+				
+			</div>
+			<div style="clear:both">
+			</div>
+		</div>
+	</div>
+</div><div id="main_box">
+	<div id="footer" style="font-family: Georgia, serif; font-size: 12pt;">
+		<table class="tabl" style="width: 100%;">
+		<tbody>
+		<tr>
+			<td>
+				<p>
+ <a href="http://vgi2.volsu.ru/pedagogical/health/"> </a><a href="https://minobrnauki.gov.ru/open_ministry/anticorr/propertyinfo/">Сведения о доходах, об имуществе и обязательствах <br>
+					 имущественного характера руководителя и членов его семьи</a>
+				</p>
+				<p>
+ <a href="https://vgi2.volsu.ru/sveden/income/index.php">Противодействие коррупции</a>
+				</p>
+				<p>
+ <a href="https://vgi2.volsu.ru/sveden/anti_terror/">Антитеррор</a>
+				</p>
+				<p>
+ <a href="https://volsu.ru/procurement/">Закупки</a>
+				</p>
+			</td>
+			<td style="text-align: center;">
+ <a href="https://t.me/vf_volgu2022" target="_blank"><img width="60" src="/upload/medialibrary/cc4/tlqhzdwq2a7je6pdy7jaavkx7sxfd1td/tg-logo.png" height="60" hspace="2" vspace="2" border="0" align="middle"></a> <br>
+				 Мы в Telegram!
+			</td>
+			<td style="text-align: center;">
+ <a href="https://vk.com/official_vf_volsu" target="_blank"><img width="60" src="/upload/medialibrary/009/hwlxwmat9ywc5x61ghtwi6dfrkcylzek/vk-logo.png" height="60" hspace="2" vspace="2" border="0" align="middle"></a> <br>
+				 Мы в ВКонтакте!
+			</td>
+			<td style="text-align: center;">
+ <a href="https://vgi2.volsu.ru/student/associations/" target="_blank"><img width="60" src="/upload/medialibrary/f7a/vwz1cp6oabuv7hdysb0wkkvtsi2xkvtg/studunits-logo.png" height="60" hspace="2" vspace="2" border="0" align="middle"></a> <br>
+				 Студенческие <br>
+				 объединения
+			</td>
+		</tr>
+		</tbody>
+		</table>
+		<p style="text-align: center; font-size: 10pt;">
+ <b>©Волжский филиал ВолГУ, 2026</b>
+		</p>
+	</div>
+</div>	</body>
+</html><!--24375436bfbf0b22d6262180ad656835-->
