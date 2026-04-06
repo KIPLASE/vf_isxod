@@ -1,0 +1,40 @@
+/* Left menu*/
+ul.target-menu
+{
+	list-style:none;
+	margin:0; 
+	padding:0;
+	/*margin-bottom:8px;*/
+	position: relative; /*IE bug*/
+	width: 990px;
+	height: 41px;
+	background: url('/bitrix/images/vgi/header_menu_bg.gif') repeat-x;
+}
+
+ul.target-menu li
+{
+	padding: 10px 20px;
+	float: left;
+	background:url('/bitrix/images/vgi/separator.gif') right top no-repeat;
+}
+
+ul.target-menu li a
+{
+	font-size:100%;
+	color:#001B4A;
+	font-weight:bold;
+	text-decoration:none;
+}
+ul.target-menu li a:hover
+{
+	color:#0088bd;
+}
+ul.target-menu li a.selected:link, 
+ul.target-menu li a.selected:visited, 
+ul.target-menu li a.selected:active, 
+ul.target-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+
