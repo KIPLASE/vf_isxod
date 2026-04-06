@@ -1,0 +1,51 @@
+
+
+/* Start:/bitrix/components/bitrix/breadcrumb/templates/.default/style.min.css?1698128511467*/
+.bx-breadcrumb{margin:10px 0}.bx-breadcrumb i{color:#b5bdc2;line-height:13px;font-size:12px;vertical-align:middle;margin-right:5px}.bx-breadcrumb .bx-breadcrumb-item{float:left;margin-bottom:10px;white-space:nowrap;line-height:13px;vertical-align:middle;margin-right:10px}.bx-breadcrumb .bx-breadcrumb-item span{font-family:"Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;font-size:13px;white-space:normal}.bx-breadcrumb .bx-breadcrumb-item a{border-bottom:0}
+/* End */
+
+
+/* Start:/bitrix/templates/empty/components/bitrix/menu/menuvgi/style.css?1701949122458*/
+/* Left menu*/
+ul.left-menu
+{
+	list-style:none;
+	margin:0; padding:0;
+	margin-bottom:8px;
+	position: relative; /*IE bug*/
+}
+
+ul.left-menu li
+{
+	padding: 10px 16px;
+	}
+
+ul.left-menu li a
+{
+	font-size:100%;
+
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+ul.left-menu li a:hover
+{
+	color:#BC262C;
+}
+
+
+ul.left-menu li a.selected:link,
+ul.left-menu li a.selected:visited,
+ul.left-menu li a.selected:active,
+ul.left-menu li a.selected:hover
+{
+	color:#FC8D3D;
+}
+
+
+
+
+/* End */
+/* /bitrix/components/bitrix/breadcrumb/templates/.default/style.min.css?1698128511467 */
+/* /bitrix/templates/empty/components/bitrix/menu/menuvgi/style.css?1701949122458 */
